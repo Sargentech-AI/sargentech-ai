@@ -30,9 +30,9 @@ For teams that tried AI, got burned, and shelved it.
 Guide + Recovery Kit + 1:1 support for teams that want speed and confidence.
 
 ## Proof
-This repository is the company hub, not the proof layer.
-For concrete examples, diagrams, and sanitised outputs, use the proof repo:
-**[production-ai-agent-proof](https://github.com/Sargentech-AI/production-ai-agent-proof)**
+This repository is the company hub, not the full proof narrative.
+For concrete examples, diagrams, and sanitised outputs, use:
+**[sargentech-ai/proof](https://github.com/Sargentech-AI/sargentech-ai/tree/main/proof)**
 
 ## Connect
 - **Guide:** [guide.sargentech.ai](https://guide.sargentech.ai)
