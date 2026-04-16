@@ -1,0 +1,53 @@
+{
+  "scenario": "Hybrid (80% local, cloud for complex work)",
+  "tasks_per_week": 50,
+  "tasks_per_month": 216.0,
+  "api_cost_monthly": 146.14,
+  "hardware_amortized": 100,
+  "total_monthly": 246.14,
+  "local_ratio": "83%",
+  "breakdown": {
+    "research": {
+      "model": "Qwen 2.5 14B",
+      "location": "local",
+      "tasks_per_month": 43.3,
+      "cost": 0.0,
+      "per_task": 0.0
+    },
+    "writing": {
+      "model": "Qwen 2.5 14B",
+      "location": "local",
+      "tasks_per_month": 43.3,
+      "cost": 0.0,
+      "per_task": 0.0
+    },
+    "code": {
+      "model": "Claude Opus 4.6",
+      "location": "cloud",
+      "tasks_per_month": 32.5,
+      "cost": 146.14,
+      "per_task": 4.5
+    },
+    "qa": {
+      "model": "Qwen 2.5 14B",
+      "location": "local",
+      "tasks_per_month": 32.5,
+      "cost": 0.0,
+      "per_task": 0.0
+    },
+    "triage": {
+      "model": "Qwen 2.5 14B",
+      "location": "local",
+      "tasks_per_month": 32.5,
+      "cost": 0.0,
+      "per_task": 0.0
+    },
+    "monitoring": {
+      "model": "Qwen 2.5 7B",
+      "location": "local",
+      "tasks_per_month": 32.5,
+      "cost": 0.0,
+      "per_task": 0.0
+    }
+  }
+}

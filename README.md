@@ -4,42 +4,43 @@ AI infrastructure for people who ship.
 
 Production agent setups, recovery kits, and ops consulting for Australian and New Zealand businesses.
 
-## What We Do
-
+## What we do
 We build and operate production AI agent infrastructure — the kind that runs 24/7, handles failures gracefully, and keeps a human in the loop before anything goes external.
 
-**Our stack in production today:**
-- 6 agent worker types running in parallel (research, writing, code, QA, triage, ops)
-- Hybrid local + cloud inference (80% local, 20% frontier models)
-- Quality gates on every output before it reaches a client
-- Multi-model routing with automatic fallback chains
-- Full task visibility — status, owner, review state
+## What to explore first
+- **Templates:** [openclaw-production-templates](https://github.com/Sargentech-AI/openclaw-production-templates)
+- **Calculator:** [agent-cost-calculator](https://github.com/Sargentech-AI/agent-cost-calculator)
+- **Proof kit:** [sargentech-ai/proof](https://github.com/Sargentech-AI/sargentech-ai/tree/main/proof)
+- **Guide:** [guide.sargentech.ai](https://guide.sargentech.ai)
+
+## Our operating stance
+- route routine work to local/cheap models
+- keep quality gates load-bearing
+- make review and routing visible
+- treat AI systems as operations infrastructure, not demos
 
 ## Products
-
-### [OpenClaw Production Setup Guide](https://guide.sargentech.ai)
-Step-by-step guide to deploying a full AI agent infrastructure. Cron jobs, monitoring, multi-model routing, Telegram delivery, quality gates. Built from running this stack in production for 6+ months.
+### OpenClaw Production Setup Guide
+Step-by-step guide to deploying a full AI agent infrastructure.
 
 ### AI Recovery Kit
-For the 25% who tried AI, got burned, and shelved it. Audit template, efficiency scorecard, migration playbook, and implementation templates.
+For teams that tried AI, got burned, and shelved it.
 
 ### Accelerator Program
-Everything in the Guide + Recovery Kit, plus 1:1 calls. Built for teams that want speed and confidence.
+Guide + Recovery Kit + 1:1 support for teams that want speed and confidence.
 
-## Open Source
-
-We build on [OpenClaw](https://github.com/openclaw/openclaw) — the open-source AI agent orchestration platform. Our production setup, Mission Control task board, and Aegis quality review system run on top of it.
+## Proof
+This repository is the company hub, not the full proof narrative.
+For concrete examples, diagrams, and sanitised outputs, use:
+**[sargentech-ai/proof](https://github.com/Sargentech-AI/sargentech-ai/tree/main/proof)**
 
 ## Connect
-
-- **Web:** [sargentech.ai](https://sargentech.ai)
 - **Guide:** [guide.sargentech.ai](https://guide.sargentech.ai)
 - **X/Twitter:** [@SargenTech_AI](https://x.com/SargenTech_AI)
 - **Email:** hello@sargentech.ai
 
 ## About
-
-Sargentech is the AI products arm of [Gravelroad Group](https://gravelroad.com.au), a 25-year Australian telecommunications and digital infrastructure consultancy. We took what works in production and made it available to others.
+Sargentech is the AI products arm of [Gravelroad Group](https://www.gravelroad.com.au), a 25-year Australian telecommunications and digital infrastructure consultancy.
 
 Based in Brisbane, Australia. Serving AU, NZ, and the Pacific Islands.
 

@@ -2,6 +2,10 @@
 
 **AI infrastructure for people who ship.**
 
-We build production AI agent systems for Australian and New Zealand businesses. Not demos — the kind that runs 24/7 with quality gates, fallback chains, and human oversight.
+Production agent systems with routing discipline, review gates, and fallback chains.
 
-🔧 [OpenClaw Production Guide](https://guide.sargentech.ai) · 🐦 [@SargenTech_AI](https://x.com/SargenTech_AI) · 🌏 Brisbane, Australia
+Start here:
+- 🔧 [Guide](https://guide.sargentech.ai)
+- 📦 [Templates](https://github.com/Sargentech-AI/openclaw-production-templates)
+- 💸 [Cost Calculator](https://github.com/Sargentech-AI/agent-cost-calculator)
+- 🧪 [Proof Kit](https://github.com/Sargentech-AI/sargentech-ai/tree/main/proof)
